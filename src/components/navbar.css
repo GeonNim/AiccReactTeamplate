@@ -1,0 +1,58 @@
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-bottom: 1px solid rgb(64, 64, 64);
+  width: 100%;
+}
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* logo */
+.navWrapper .logo {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.navWrapper .logoSimbol {
+  border: 1px solid rgb(64, 64, 64);
+  width: 40px;
+  height: 40px;
+  background: yellow;
+  border-radius: 100%;
+}
+.navWrapper .logoSimbol .logoDot {
+  width: 32px;
+  height: 32px;
+  display: block;
+  background: indigo;
+  border-radius: 100%;
+}
+
+.navWrapper .logoTitle {
+  font-family: var(--ff-em);
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+/* nav */
+.navWrapper .navi {
+  display: flex;
+  gap: 1.25rem;
+  font-family: var(--ff-em);
+}
+
+/* subnav */
+.navWrapper .subLinks {
+  display: flex;
+  gap: 0.5rem;
+}
+.navWrapper .subLinks a {
+  font-family: var(--ff-em);
+  border: 1px solid rgb(64, 64, 64);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+}
