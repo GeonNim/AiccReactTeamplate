@@ -11,12 +11,7 @@
 
 <i>A curated list of awesome Github Profile READMEs</i>
 
-<a href="https://github.com/GeonNim/AiccReactTeamplate/pulls"><img src="https://github.com/GeonNim/AiccReactTeamplate/actions/new" alt="Stars Badge"/></a>
-<a href="https://github.com/GeonNim/AiccReactTeamplate/issues"><img src="https://github.com/GeonNim/AiccReactTeamplate/issues" alt="Forks Badge"/></a>
-<a href="https://github.com/GeonNim/AiccReactTeamplate/issuess"><img src="https://github.com/GeonNim/AiccReactTeamplate/issues" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/GeonNim/AiccReactTeamplate/issues"><img src="https://github.com/GeonNim/AiccReactTeamplate/issues" alt="Issues Badge"/></a>
-<a href="https://github.com/GeonNim/AiccReactTeamplate/issues"><img alt="GitHub contributors" src="https://github.com/GeonNim/AiccReactTeamplate/issues"></a>
-<a href="https://github.com/GeonNim/AiccReactTeamplate/issues"><img src="https://github.com/GeonNim/AiccReactTeamplate/issues" alt="License Badge"/></a>
+
 
 <img alt="Awesome GitHub Profile Readme" src="assets/agpr.gif"> </img>
 
