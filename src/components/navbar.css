@@ -1,5 +1,5 @@
 nav {
-  position: fixed;
+  position: sticky;
   left: 0;
   top: 0;
   border-bottom: 1px solid rgb(64, 64, 64);
@@ -35,24 +35,30 @@ nav {
 .navWrapper .logoTitle {
   font-family: var(--ff-em);
   font-weight: 500;
-  font-size: 1.25rem;
+  _font-size: 1.25rem;
 }
 
 /* nav */
 .navWrapper .navi {
-  display: flex;
+  _display: flex;
   gap: 1.25rem;
   font-family: var(--ff-em);
 }
 
 /* subnav */
 .navWrapper .subLinks {
-  display: flex;
+  _display: flex;
   gap: 0.5rem;
 }
-.navWrapper .subLinks a {
+.subLinks a {
   font-family: var(--ff-em);
   border: 1px solid rgb(64, 64, 64);
   padding: 0.5rem 0.75rem;
   border-radius: 0.5rem;
+}
+.modeBtn {
+  font-size: 0.625rem;
+  _padding: 0 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(64, 64, 64);
 }
