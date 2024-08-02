@@ -25,25 +25,27 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="subLinks hidden lg:flex">
-            {authLink.map((item, idx) => (
-              <Link
-                to={item.to}
-                key={idx}
-                className={`${
-                  idx === 1 &&
-                  'bg-gradient-to-r from-indigo-600 to-indigo-900  text-white'
-                }`}
-              >
-                {item.label}
-              </Link>
-            ))}
+          <div className="subLinkWrapper flex">
+            <div className="subLinks hidden lg:flex">
+              {authLink.map((item, idx) => (
+                <Link
+                  to={item.to}
+                  key={idx}
+                  className={`${
+                    idx === 1 &&
+                    'bg-gradient-to-r from-indigo-600 to-indigo-900  text-white'
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+            <div className="menuIcon lg:hidden ">
+              <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+                {mobileMenuOpen ? <X /> : <Menu />}
+              </button>
+            </div>
             <ModeCtrl />
-          </div>
-          <div className="menuIcon lg:hidden ">
-            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-              {mobileMenuOpen ? <X /> : <Menu />}
-            </button>
           </div>
         </div>
 
