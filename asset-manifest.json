@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AiccReactTeamplate/static/css/main.fddd4d85.css",
-    "main.js": "/AiccReactTeamplate/static/js/main.3fea43d0.js",
+    "main.css": "/AiccReactTeamplate/static/css/main.da52830c.css",
+    "main.js": "/AiccReactTeamplate/static/js/main.198945d4.js",
     "static/media/video2.mp4": "/AiccReactTeamplate/static/media/video2.dccb45b33221101723b1.mp4",
     "static/media/video1.mp4": "/AiccReactTeamplate/static/media/video1.c57aaad094fcda3e06fe.mp4",
     "static/media/code.jpg": "/AiccReactTeamplate/static/media/code.fea6cf7433b105d6e874.jpg",
@@ -11,12 +11,15 @@
     "static/media/user1.jpg": "/AiccReactTeamplate/static/media/user1.89fba0e95d811157afca.jpg",
     "static/media/user5.jpg": "/AiccReactTeamplate/static/media/user5.921947eccae648403fd7.jpg",
     "static/media/user4.jpg": "/AiccReactTeamplate/static/media/user4.b3a5b044617d336fd8f2.jpg",
+    "static/media/image4.jpg": "/AiccReactTeamplate/static/media/image4.5eb624e42c394ec67d8a.jpg",
+    "static/media/image3.jpg": "/AiccReactTeamplate/static/media/image3.b0c0f459e67373a86750.jpg",
+    "static/media/image6.jpg": "/AiccReactTeamplate/static/media/image6.645ddb3e488db970520c.jpg",
     "index.html": "/AiccReactTeamplate/index.html",
-    "main.fddd4d85.css.map": "/AiccReactTeamplate/static/css/main.fddd4d85.css.map",
-    "main.3fea43d0.js.map": "/AiccReactTeamplate/static/js/main.3fea43d0.js.map"
+    "main.da52830c.css.map": "/AiccReactTeamplate/static/css/main.da52830c.css.map",
+    "main.198945d4.js.map": "/AiccReactTeamplate/static/js/main.198945d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.fddd4d85.css",
-    "static/js/main.3fea43d0.js"
+    "static/css/main.da52830c.css",
+    "static/js/main.198945d4.js"
   ]
 }
