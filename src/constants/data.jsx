@@ -12,6 +12,13 @@ import user4 from '../assets/profile-pictures/user4.jpg';
 import user5 from '../assets/profile-pictures/user5.jpg';
 import user6 from '../assets/profile-pictures/user6.jpg';
 
+import image1 from '../assets/CodingPictures/image1.jpg';
+import image2 from '../assets/CodingPictures/image2.jpg';
+import image3 from '../assets/CodingPictures/image3.jpg';
+import image4 from '../assets/CodingPictures/image4.jpg';
+import image5 from '../assets/CodingPictures/image5.jpg';
+import image6 from '../assets/CodingPictures/image6.jpg';
+
 export const navItems = [
   { label: 'Home', to: '/' },
   { label: 'Features', to: '/features' },
@@ -70,36 +77,42 @@ export const features = [
     text: '끌어다 놓기 인터페이스',
     description:
       'Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.',
+    image: image1,
   },
   {
     icon: <Fingerprint />,
     text: '다중 플랫폼 호환성',
     description:
       'Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.',
+    image: image2,
   },
   {
     icon: <ShieldHalf />,
     text: '내장된 템플릿',
     description:
       'Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.',
+    image: image3,
   },
   {
     icon: <BatteryCharging />,
     text: '실시간 미리보기',
     description:
       'Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.',
+    image: image4,
   },
   {
     icon: <PlugZap />,
     text: '협업 도구',
     description:
       'Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.',
+    image: image5,
   },
   {
     icon: <GlobeLock />,
     text: '분석 대시보드',
     description:
       'Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.',
+    image: image6,
   },
 ];
 
